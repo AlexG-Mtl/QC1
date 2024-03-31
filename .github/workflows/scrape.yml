@@ -28,15 +28,17 @@ jobs:
           python scrape_hospital_data.py
       
 
-      - name: Check if hospital_data.json has changed
-        id: file_check
+      - name: Check if hospital_data.json has changed and copy if so
         run: |
-          if git diff --exit-code hospital_data.json; then
-            echo "hospital_data.json has not changed."
-            echo "FILE_CHANGED=false" >> $GITHUB_ENV
-          else
+          git diff --quiet hospital_data.json || {
             echo "hospital_data.json has changed."
+            mkdir -p data
+            timestamp=$(date -u +"%Y%m%d%H%M%S")
+            cp hospital_data.json data/hospital_data_${timestamp}.json
+            git add data/hospital_data_${timestamp}.json
             echo "FILE_CHANGED=true" >> $GITHUB_ENV
+          }
+
       
       - name: Copy hospital_data.json with timestamp if changed
         if: env.FILE_CHANGED == 'true'
