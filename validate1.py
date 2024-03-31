@@ -1,8 +1,4 @@
 import git
-from pathlib import Path
-import json
-
-import git
 
 def main():
     repo_path = '.'
@@ -26,4 +22,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
