@@ -1,7 +1,11 @@
+import os  
 import sqlite_utils
 import git
 import json
 from datetime import datetime
+
+# The rest of your script follows...
+
 
 def iterate_file_versions(repo_path, filepaths, ref="main"):
     repo = git.Repo(repo_path, odbt=git.GitDB)
