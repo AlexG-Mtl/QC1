@@ -11,12 +11,25 @@ def iterate_file_versions(repo_path, filepaths, ref="main"):
         yield commit.committed_datetime, commit.hexsha, blob.data_stream.read()
 
 def export_to_csv(db, table_name, output_path):
+    # Fetch data as a generator
     data = db[table_name].rows_where(order_by="id")
+    try:
+        # Attempt to get the first item from the generator to determine field names
+        first_item = next(data)
+        # We create a new generator that starts with the first item and includes the rest
+        data = db[table_name].rows_where(order_by="id")
+    except StopIteration:
+        # This exception means the generator was empty; we can't proceed without data
+        print(f"No data available in table {table_name} to export.")
+        return
+
     with open(output_path, 'w', newline='', encoding='utf-8') as file:
-        writer = csv.DictWriter(file, fieldnames=data[0].keys())
+        # Use the first item to determine field names
+        writer = csv.DictWriter(file, fieldnames=first_item.keys())
         writer.writeheader()
         for row in data:
             writer.writerow(row)
+
 
 if __name__ == "__main__":
     db = sqlite_utils.Database("cdc.db")
