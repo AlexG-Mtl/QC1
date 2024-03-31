@@ -4,24 +4,41 @@ import git
 import json
 from datetime import datetime
 
-def iterate_file_versions(repo_path, filepath, ref="main"):
-    repo = git.Repo(repo_path)
-    commits = list(repo.iter_commits(ref, paths=filepath))
+def iterate_file_versions(repo_path, filepaths, ref="main"):
+    repo = git.Repo(repo_path, odbt=git.GitDB)
+    commits = reversed(list(repo.iter_commits(ref, paths=filepaths)))
     for commit in commits:
-        try:
-            # Ensure we're getting the correct blob for each commit
-            blob = commit.tree / filepath
-            yield commit.committed_date, commit.hexsha, blob.data_stream.read()
-        except KeyError:
-            continue  # Skip commits where the file might not be present
+        blob = [b for b in commit.tree.blobs if b.name in filepaths][0]
+        yield commit.committed_datetime, commit.hexsha, blob.data_stream.read()
 
 def ensure_table_schema(db):
-    # Ensures the schema for 'hospital_stats' and 'hospital_record', adding 'commit_hexsha' if missing
-    # Similar to previous implementation
+    # Assuming previous code for schema assurance was here, properly indented
+
+# Make sure there is no unindented code here before the next function definition
 
 def process_hospital_data(db, when, commit_hexsha, content):
-    # Processes hospital data and inserts it into the database
-    # Uses 'when' for 'update_id' and includes 'commit_hexsha' in each record
+    try:
+        data = json.loads(content)
+    except ValueError:
+        return  # Skip if not valid JSON
+
+    last_update = data["last_update"]
+    update_id = when.strftime("%Y%m%d%H%M%S")
+    hospitals = data.get("hospitals", [])
+    
+    db["hospital_stats"].insert({
+        "id": update_id, "update_time": last_update, 
+        "description": "Hospital data update", 
+        "commit_hexsha": commit_hexsha}, pk="id", replace=True)
+
+    for hospital in hospitals:
+        hospital_record = {**hospital, "update_id": update_id, "commit_hexsha": commit_hexsha}
+        normalized_record = {
+            k.replace("\n", " ").strip(): ("" if v is None else v.replace("%", "")) 
+            for k, v in hospital_record.items()}
+        db["hospital_record"].upsert(normalized_record, pk=("name", "commit_hexsha"))
+
+# Further code...
 
 def export_table_to_csv(db, table_name, csv_path, order_by):
     # Exports table data to CSV
