@@ -23,5 +23,5 @@ if __name__ == "__main__":
     # Your data processing logic here
     
     # After processing, export the hospital_reports table to a CSV file
-    export_to_csv(db, "hospital_reports", "/mnt/data/hospital_reports.csv")
-    print("Exported hospital data to '/mnt/data/hospital_reports.csv'")
+    export_to_csv(db, "hospital_reports", "hospital_reports.csv")
+    print("Exported hospital data to 'hospital_reports.csv'")
