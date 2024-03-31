@@ -38,12 +38,16 @@ def export_table_to_csv(db, table_name, csv_path):
     import os
     os.makedirs(os.path.dirname(csv_path), exist_ok=True)
 
-    # Export table to CSV
+def export_table_to_csv(db, table_name, csv_path, order_by=None):
+    os.makedirs(os.path.dirname(csv_path), exist_ok=True)
     with open(csv_path, "w", newline="", encoding="utf-8") as f:
-        for row in db[table_name].rows_where(order_by="id"):
+        # Adjusting the rows_where call based on the order_by parameter
+        query = db[table_name].rows_where(order_by=order_by) if order_by else db[table_name].rows_where()
+        for row in query:
             if f.tell() == 0:  # Write headers only on the first line
                 f.write(",".join(row.keys()) + "\n")
             f.write(",".join(['"' + str(value).replace('"', '""') + '"' for value in row.values()]) + "\n")
+
 
 if __name__ == "__main__":
     db_path = "cdc.db"
@@ -57,4 +61,5 @@ if __name__ == "__main__":
 
     # Export tables to CSV files using the helper function
     export_table_to_csv(db, "hospital_stats", "data/hospital_stats.csv")
-    export_table_to_csv(db, "hospital_record", "data/hospital_record.csv")
+    export_table_to_csv(db, "hospital_record", "data/hospital_record.csv", order_by="name")  # Assuming 'name' is the correct column
+
