@@ -12,9 +12,21 @@ def iterate_file_versions(repo_path, filepaths, ref="main"):
         yield commit.committed_datetime, commit.hexsha, blob.data_stream.read()
 
 def ensure_table_schema(db):
-    # Assuming previous code for schema assurance was here, properly indented
+    if "hospital_stats" not in db.table_names():
+        db["hospital_stats"].create({
+            "id": str, "update_time": str, "description": str, 
+            "commit_hexsha": str}, pk="id")
+    else:
+        if "commit_hexsha" not in db["hospital_stats"].columns_dict:
+            db["hospital_stats"].add_column("commit_hexsha", str)
 
-# Make sure there is no unindented code here before the next function definition
+    if "hospital_record" not in db.table_names():
+        db["hospital_record"].create({
+            "name": str, "update_id": str, "commit_hexsha": str,
+            # Add other columns based on your JSON structure here
+        }, pk=("name", "commit_hexsha"))
+    elif "commit_hexsha" not in db["hospital_record"].columns_dict:
+        db["hospital_record"].add_column("commit_hexsha", str)
 
 def process_hospital_data(db, when, commit_hexsha, content):
     try:
@@ -38,11 +50,14 @@ def process_hospital_data(db, when, commit_hexsha, content):
             for k, v in hospital_record.items()}
         db["hospital_record"].upsert(normalized_record, pk=("name", "commit_hexsha"))
 
-# Further code...
-
 def export_table_to_csv(db, table_name, csv_path, order_by):
-    # Exports table data to CSV
-    # Similar to previous implementation
+    os.makedirs(os.path.dirname(csv_path), exist_ok=True)
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        query = db[table_name].rows_where(order_by=order_by) if order_by else db[table_name].rows_where()
+        for row in query:
+            if f.tell() == 0:  # Write headers only on the first line
+                f.write(",".join(row.keys()) + "\n")
+            f.write(",".join(['"' + str(value).replace('"', '""') + '"' for value in row.values()]) + "\n")
 
 if __name__ == "__main__":
     db_path = "cdc.db"
