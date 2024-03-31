@@ -30,7 +30,9 @@ def process_hospital_data(db, content):
     for hospital in hospitals:
         hospital_record = {**hospital, "update_id": update_id}
         # Normalize the keys and values as needed
-        normalized_record = {k.replace("\n", " ").strip(): (v if "%" not in v else v.replace("%", "")) for k, v in hospital_record.items()}
+        # normalized_record = {k.replace("\n", " ").strip(): (v if "%" not in v else v.replace("%", "")) for k, v in hospital_record.items()}
+        normalized_record = {k.replace("\n", " ").strip(): (v if v is None or "%" not in v else v.replace("%", "")) for k, v in hospital_record.items()}
+ 
         db["hospital_record"].insert(normalized_record, pk="name", alter=True, replace=True)
 
 if __name__ == "__main__":
