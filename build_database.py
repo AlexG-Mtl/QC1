@@ -30,10 +30,20 @@ def process_hospital_data(db, content):
     for hospital in hospitals:
         hospital_record = {**hospital, "update_id": update_id}
         # Normalize the keys and values as needed
-        # normalized_record = {k.replace("\n", " ").strip(): (v if "%" not in v else v.replace("%", "")) for k, v in hospital_record.items()}
         normalized_record = {k.replace("\n", " ").strip(): (v if v is None or "%" not in v else v.replace("%", "")) for k, v in hospital_record.items()}
- 
         db["hospital_record"].insert(normalized_record, pk="name", alter=True, replace=True)
+
+def export_table_to_csv(db, table_name, csv_path):
+    # Ensure directory exists (Python 3.5+)
+    import os
+    os.makedirs(os.path.dirname(csv_path), exist_ok=True)
+
+    # Export table to CSV
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
+        for row in db[table_name].rows_where(order_by="id"):
+            if f.tell() == 0:  # Write headers only on the first line
+                f.write(",".join(row.keys()) + "\n")
+            f.write(",".join(['"' + str(value).replace('"', '""') + '"' for value in row.values()]) + "\n")
 
 if __name__ == "__main__":
     db_path = "cdc.db"
@@ -45,6 +55,6 @@ if __name__ == "__main__":
     for when, hash, content in iterate_file_versions(repo_path, (filepaths,)):
         process_hospital_data(db, content)
 
-    # Export tables to CSV files
-    db["hospital_stats"].rows_where(order_by="id").save_csv("data/hospital_stats.csv")
-    db["hospital_record"].rows_where(order_by="name").save_csv("data/hospital_record.csv")
+    # Export tables to CSV files using the helper function
+    export_table_to_csv(db, "hospital_stats", "data/hospital_stats.csv")
+    export_table_to_csv(db, "hospital_record", "data/hospital_record.csv")
