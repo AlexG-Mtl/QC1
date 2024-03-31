@@ -64,6 +64,6 @@ if __name__ == "__main__":
         process_hospital_data(db, content)
 
     # Export tables to CSV files using the helper function
-    export_table_to_csv(db, "hospital_stats", "data/hospital_stats.csv")
-    export_table_to_csv(db, "hospital_record", "data/hospital_record.csv", order_by="name")  # Assuming 'name' is the correct column
+    export_table_to_csv(db, "hospital_stats", "data/hospital_stats1.csv")
+    export_table_to_csv(db, "hospital_record", "data/hospital_record1.csv", order_by="name")  # Assuming 'name' is the correct column
 
