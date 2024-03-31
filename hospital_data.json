@@ -1,5 +1,5 @@
 {
-    "last_update": "March 31, at  1:00 p.m Source : Console provinciale des urgences (CPU), MSSS",
+    "last_update": "March 31, at  2:00 p.m Source : Console provinciale des urgences (CPU), MSSS",
     "hospitals": [
         {
             "name": "Centre de sant\u00e9 et de services sociaux du Granit",
@@ -105,11 +105,11 @@
             "name": "Ensemble du Qu\u00e9bec",
             "address": null,
             "Average wait on 811 (from the previous day)   \n    \n    \n    \n    00": "00",
-            "Number of people waiting to see a doctor in the emergency room": "1,154",
-            "Total number of people in the emergency room": "3,420",
-            "Occupancy rate of stretchers": "96%",
+            "Number of people waiting to see a doctor in the emergency room": "1,285",
+            "Total number of people in the emergency room": "3,633",
+            "Occupancy rate of stretchers": "92%",
             "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "50",
-            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "44"
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "34"
         },
         {
             "name": "Centre multiservices de sant\u00e9 et de services sociaux de Fermont",
@@ -215,11 +215,11 @@
             "name": "Ensemble du Qu\u00e9bec",
             "address": null,
             "Average wait on 811 (from the previous day)   \n    \n    \n    \n    00": "00",
-            "Number of people waiting to see a doctor in the emergency room": "1,154",
-            "Total number of people in the emergency room": "3,420",
-            "Occupancy rate of stretchers": "96%",
+            "Number of people waiting to see a doctor in the emergency room": "1,285",
+            "Total number of people in the emergency room": "3,633",
+            "Occupancy rate of stretchers": "92%",
             "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "50",
-            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "44"
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "34"
         },
         {
             "name": "Centre multiservices de sant\u00e9 et de services sociaux de Port-Cartier",
@@ -325,11 +325,11 @@
             "name": "Ensemble du Qu\u00e9bec",
             "address": null,
             "Average wait on 811 (from the previous day)   \n    \n    \n    \n    00": "00",
-            "Number of people waiting to see a doctor in the emergency room": "1,154",
-            "Total number of people in the emergency room": "3,420",
-            "Occupancy rate of stretchers": "96%",
+            "Number of people waiting to see a doctor in the emergency room": "1,285",
+            "Total number of people in the emergency room": "3,633",
+            "Occupancy rate of stretchers": "92%",
             "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "50",
-            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "44"
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "34"
         },
         {
             "name": "Centre multiservices de sant\u00e9 et de services sociaux des Sources",
@@ -435,11 +435,11 @@
             "name": "Ensemble du Qu\u00e9bec",
             "address": null,
             "Average wait on 811 (from the previous day)   \n    \n    \n    \n    00": "00",
-            "Number of people waiting to see a doctor in the emergency room": "1,154",
-            "Total number of people in the emergency room": "3,420",
-            "Occupancy rate of stretchers": "96%",
+            "Number of people waiting to see a doctor in the emergency room": "1,285",
+            "Total number of people in the emergency room": "3,633",
+            "Occupancy rate of stretchers": "92%",
             "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "50",
-            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "44"
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "34"
         },
         {
             "name": "CLSC et h\u00f4pital Le Royer",
@@ -545,11 +545,11 @@
             "name": "Ensemble du Qu\u00e9bec",
             "address": null,
             "Average wait on 811 (from the previous day)   \n    \n    \n    \n    00": "00",
-            "Number of people waiting to see a doctor in the emergency room": "1,154",
-            "Total number of people in the emergency room": "3,420",
-            "Occupancy rate of stretchers": "96%",
+            "Number of people waiting to see a doctor in the emergency room": "1,285",
+            "Total number of people in the emergency room": "3,633",
+            "Occupancy rate of stretchers": "92%",
             "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "50",
-            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "44"
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "34"
         },
         {
             "name": "H\u00f4pital de Dolbeau-Mistassini",
@@ -655,11 +655,11 @@
             "name": "Ensemble du Qu\u00e9bec",
             "address": null,
             "Average wait on 811 (from the previous day)   \n    \n    \n    \n    00": "00",
-            "Number of people waiting to see a doctor in the emergency room": "1,154",
-            "Total number of people in the emergency room": "3,420",
-            "Occupancy rate of stretchers": "96%",
+            "Number of people waiting to see a doctor in the emergency room": "1,285",
+            "Total number of people in the emergency room": "3,633",
+            "Occupancy rate of stretchers": "92%",
             "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "50",
-            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "44"
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "34"
         },
         {
             "name": "H\u00f4pital de Lanaudi\u00e8re et Centre d'h\u00e9bergement Parphilia-Ferland",
@@ -765,11 +765,11 @@
             "name": "Ensemble du Qu\u00e9bec",
             "address": null,
             "Average wait on 811 (from the previous day)   \n    \n    \n    \n    00": "00",
-            "Number of people waiting to see a doctor in the emergency room": "1,154",
-            "Total number of people in the emergency room": "3,420",
-            "Occupancy rate of stretchers": "96%",
+            "Number of people waiting to see a doctor in the emergency room": "1,285",
+            "Total number of people in the emergency room": "3,633",
+            "Occupancy rate of stretchers": "92%",
             "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "50",
-            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "44"
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "34"
         },
         {
             "name": "H\u00f4pital de Saint-J\u00e9r\u00f4me",
@@ -875,11 +875,11 @@
             "name": "Ensemble du Qu\u00e9bec",
             "address": null,
             "Average wait on 811 (from the previous day)   \n    \n    \n    \n    00": "00",
-            "Number of people waiting to see a doctor in the emergency room": "1,154",
-            "Total number of people in the emergency room": "3,420",
-            "Occupancy rate of stretchers": "96%",
+            "Number of people waiting to see a doctor in the emergency room": "1,285",
+            "Total number of people in the emergency room": "3,633",
+            "Occupancy rate of stretchers": "92%",
             "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "50",
-            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "44"
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "34"
         },
         {
             "name": "H\u00f4pital en sant\u00e9 mentale Albert-Pr\u00e9vost",
@@ -985,11 +985,11 @@
             "name": "Ensemble du Qu\u00e9bec",
             "address": null,
             "Average wait on 811 (from the previous day)   \n    \n    \n    \n    00": "00",
-            "Number of people waiting to see a doctor in the emergency room": "1,154",
-            "Total number of people in the emergency room": "3,420",
-            "Occupancy rate of stretchers": "96%",
+            "Number of people waiting to see a doctor in the emergency room": "1,285",
+            "Total number of people in the emergency room": "3,633",
+            "Occupancy rate of stretchers": "92%",
             "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "50",
-            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "44"
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "34"
         },
         {
             "name": "H\u00f4pital Fleury",
@@ -1095,11 +1095,11 @@
             "name": "Ensemble du Qu\u00e9bec",
             "address": null,
             "Average wait on 811 (from the previous day)   \n    \n    \n    \n    00": "00",
-            "Number of people waiting to see a doctor in the emergency room": "1,154",
-            "Total number of people in the emergency room": "3,420",
-            "Occupancy rate of stretchers": "96%",
+            "Number of people waiting to see a doctor in the emergency room": "1,285",
+            "Total number of people in the emergency room": "3,633",
+            "Occupancy rate of stretchers": "92%",
             "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "50",
-            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "44"
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "34"
         },
         {
             "name": "H\u00f4pital Pierre-Le Gardeur",
@@ -1205,11 +1205,11 @@
             "name": "Ensemble du Qu\u00e9bec",
             "address": null,
             "Average wait on 811 (from the previous day)   \n    \n    \n    \n    00": "00",
-            "Number of people waiting to see a doctor in the emergency room": "1,154",
-            "Total number of people in the emergency room": "3,420",
-            "Occupancy rate of stretchers": "96%",
+            "Number of people waiting to see a doctor in the emergency room": "1,285",
+            "Total number of people in the emergency room": "3,633",
+            "Occupancy rate of stretchers": "92%",
             "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "50",
-            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "44"
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "34"
         }
     ]
 }
