@@ -1,1 +1,1 @@
-Found 1 commits affecting hospital_data.json.
+Not enough commit history found for comparison.
