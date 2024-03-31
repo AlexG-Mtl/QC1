@@ -11,27 +11,33 @@ def iterate_file_versions(repo_path, filepaths, ref="main"):
         blob = [b for b in commit.tree.blobs if b.name in filepaths][0]
         yield commit.committed_datetime, commit.hexsha, blob.data_stream.read()
 
+def ensure_table_schema(db):
+    # Ensure 'hospital_stats' table schema is correct
+    if "hospital_stats" not in db.table_names():
+        db["hospital_stats"].create({"id": str, "update_time": str, "description": str, "commit_hexsha": str}, pk="id")
+    else:
+        if "commit_hexsha" not in db["hospital_stats"].columns_dict:
+            db["hospital_stats"].add_column("commit_hexsha", str)
+
+    # Ensure 'hospital_record' table schema is correct
+    if "hospital_record" not in db.table_names():
+        db["hospital_record"].create({"name": str, "update_id": str, "commit_hexsha": str}, pk="name")
+        # Adjust or add more columns based on your JSON structure
+
 def process_hospital_data(db, content, update_id, commit_hexsha):
     try:
         data = json.loads(content)
     except ValueError:
-        # Skip if the content is not valid JSON
-        return
+        return  # Skip if not valid JSON
     
     last_update = data["last_update"]
     hospitals = data.get("hospitals", [])
 
-    # Insert/update last_update info into hospital_stats
     db["hospital_stats"].insert({"id": update_id, "update_time": last_update, "description": "Hospital data update", "commit_hexsha": commit_hexsha}, pk="id", replace=True)
 
-    # Process each hospital entry
     for hospital in hospitals:
-        hospital_record = {**hospital, "update_id": update_id}
-        normalized_record = {
-            k.replace("\n", " ").strip(): ("" if v is None else v.replace("%", "")) for k, v in hospital_record.items()
-        }
-        # Add commit_hexsha to uniquely identify data from each commit
-        normalized_record["commit_hexsha"] = commit_hexsha
+        hospital_record = {**hospital, "update_id": update_id, "commit_hexsha": commit_hexsha}
+        normalized_record = {k.replace("\n", " ").strip(): ("" if v is None else v.replace("%", "")) for k, v in hospital_record.items()}
         db["hospital_record"].insert(normalized_record, pk=("name", "commit_hexsha"), alter=True, replace=True)
 
 def export_table_to_csv(db, table_name, csv_path, order_by=None):
@@ -49,6 +55,9 @@ if __name__ == "__main__":
     filepaths = "hospital_data.json"
     db = sqlite_utils.Database(db_path)
 
+    # Ensure the database schema is prepared before processing data
+    ensure_table_schema(db)
+
     # Iterate through file versions
     for when, hash, content in iterate_file_versions(repo_path, (filepaths,)):
         update_id = when.strftime("%Y%m%d%H%M%S")
@@ -57,5 +66,6 @@ if __name__ == "__main__":
     # Export tables to CSV files using the helper function
     export_table_to_csv(db, "hospital_stats", "data/hospital_stats.csv", order_by="id")
     export_table_to_csv(db, "hospital_record", "data/hospital_record.csv", order_by="name, commit_hexsha")
+
 
 
