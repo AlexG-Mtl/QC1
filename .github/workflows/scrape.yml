@@ -26,22 +26,14 @@ jobs:
       - name: Fetch latest data
         run: |
           python scrape_hospital_data.py
-      
 
-      - name: Check if hospital_data.json has changed and copy if so
+      - name: Check if hospital_data.json has changed
+        id: file_check
         run: |
-          git diff --quiet hospital_data.json || {
-            echo "hospital_data.json has changed."
-            mkdir -p data
-            timestamp=$(date -u +"%Y%m%d%H%M%S")
-            cp hospital_data.json data/hospital_data_${timestamp}.json
-            git add data/hospital_data_${timestamp}.json
-            echo "FILE_CHANGED=true" >> $GITHUB_ENV
-          }
+          git diff --name-only | grep hospital_data.json && echo "::set-output name=changed::true" || echo "::set-output name=changed::false"
 
-      
       - name: Copy hospital_data.json with timestamp if changed
-        if: env.FILE_CHANGED == 'true'
+        if: steps.file_check.outputs.changed == 'true'
         run: |
           mkdir -p data
           timestamp=$(date -u +'%Y%m%d%H%M%S')
@@ -49,13 +41,13 @@ jobs:
           git add data/hospital_data_${timestamp}.json
 
       - name: Commit and push if it changed
-        if: env.FILE_CHANGED == 'true'
+        if: steps.file_check.outputs.changed == 'true'
         run: |
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
-          timestamp=$(date -u)
-          git commit -m "Latest hospital data: ${timestamp}" || exit 0
+          git commit -m "Latest hospital data: $(date -u)"
           git push
+
 
 
 
