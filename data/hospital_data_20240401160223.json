@@ -1,0 +1,1215 @@
+{
+    "last_update": "April  1, at  11:00 a.m Source : Console provinciale des urgences (CPU), MSSS",
+    "hospitals": [
+        {
+            "name": "Centre de sant\u00e9 et de services sociaux du Granit",
+            "address": "3569 rue Laval, Lac-M\u00e9gantic, G6B 1A5 Estrie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "16",
+            "Number of people waiting to see a doctor in the emergency room": "9",
+            "Total number of people in the emergency room": "11",
+            "Occupancy rate of stretchers": "60%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "43",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    7": "32"
+        },
+        {
+            "name": "Centre hospitalier de l'Universit\u00e9 de Montr\u00e9al",
+            "address": "1000 rue Saint-Denis, Montr\u00e9al, H2X 0A9 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    11": "29",
+            "Number of people waiting to see a doctor in the emergency room": "40",
+            "Total number of people in the emergency room": "121",
+            "Occupancy rate of stretchers": "137%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "57",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    19": "03"
+        },
+        {
+            "name": "Centre hospitalier de l'Universit\u00e9 Laval",
+            "address": "2705 boulevard Laurier, Qu\u00e9bec, G1V 4G2 Capitale-Nationale",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "53",
+            "Number of people waiting to see a doctor in the emergency room": "21",
+            "Total number of people in the emergency room": "82",
+            "Occupancy rate of stretchers": "109%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "30",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    8": "31"
+        },
+        {
+            "name": "Centre hospitalier de St.Mary",
+            "address": "3830 avenue Lacombe, Montr\u00e9al, H3T 1M5 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "14",
+            "Number of people waiting to see a doctor in the emergency room": "14",
+            "Total number of people in the emergency room": "53",
+            "Occupancy rate of stretchers": "127%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    7": "14",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    18": "41"
+        },
+        {
+            "name": "Centre hospitalier r\u00e9gional du Grand-Portage",
+            "address": "75 rue Saint-Henri, Rivi\u00e8re-du-Loup, G5R 2A4 Bas-Saint-Laurent",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "51",
+            "Number of people waiting to see a doctor in the emergency room": "8",
+            "Total number of people in the emergency room": "13",
+            "Occupancy rate of stretchers": "22%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "10",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    10": "47"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux Avellin-Dalcourt",
+            "address": "450 2e Rue, Louiseville, J5V 1V3 Mauricie et Centre-du-Qu\u00e9bec",
+            "Estimated waiting time for non-priority cases to see a doctor": "currently not available",
+            "Number of people waiting to see a doctor in the emergency room": "7",
+            "Total number of people in the emergency room": "9",
+            "Occupancy rate of stretchers": "25%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    6": "19",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    8": "57"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux Chauveau",
+            "address": "11999 rue de l'H\u00f4pital, Qu\u00e9bec, G2A 2T7 Capitale-Nationale",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "55",
+            "Number of people waiting to see a doctor in the emergency room": "14",
+            "Total number of people in the emergency room": "45",
+            "Occupancy rate of stretchers": "120%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "16",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    4": "25"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux Christ-Roi",
+            "address": "675 rue Saint-Jean-Baptiste, Nicolet, J3T 1S4 Mauricie et Centre-du-Qu\u00e9bec",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    09": "03",
+            "Number of people waiting to see a doctor in the emergency room": "12",
+            "Total number of people in the emergency room": "16",
+            "Occupancy rate of stretchers": "50%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "18",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    10": "34"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux d'Argenteuil",
+            "address": "145 avenue de la Providence, Lachute, J8H 4C7 Laurentides",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    07": "42",
+            "Number of people waiting to see a doctor in the emergency room": "12",
+            "Total number of people in the emergency room": "20",
+            "Occupancy rate of stretchers": "63%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "02",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    19": "19"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Baie-Saint-Paul",
+            "address": "88 rue Racine, Baie-Saint-Paul, G3Z 0K3 Capitale-Nationale",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    02": "59",
+            "Number of people waiting to see a doctor in the emergency room": "4",
+            "Total number of people in the emergency room": "7",
+            "Occupancy rate of stretchers": "13%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "13",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    21": "47"
+        },
+        {
+            "name": "Ensemble du Qu\u00e9bec",
+            "address": null,
+            "Average wait on 811 (from the previous day)   \n    \n    \n    \n    01": "19",
+            "Number of people waiting to see a doctor in the emergency room": "1,267",
+            "Total number of people in the emergency room": "3,897",
+            "Occupancy rate of stretchers": "103%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "15",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "20"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Fermont",
+            "address": "1 rue Aquilon, Fermont, G0G 1J0 C\u00f4te-Nord",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "09",
+            "Number of people waiting to see a doctor in the emergency room": "5",
+            "Total number of people in the emergency room": "7",
+            "Occupancy rate of stretchers": "0%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "27",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    7": "29"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Forestville",
+            "address": "2 7e rue, Forestville, G0T 1E0 C\u00f4te-Nord",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    01": "13",
+            "Number of people waiting to see a doctor in the emergency room": "2",
+            "Total number of people in the emergency room": "7",
+            "Occupancy rate of stretchers": "0%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "51",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    9": "34"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Fortierville",
+            "address": "216 rue Principale, Fortierville, G0S 1J0 Mauricie et Centre-du-Qu\u00e9bec",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "17",
+            "Number of people waiting to see a doctor in the emergency room": "11",
+            "Total number of people in the emergency room": "15",
+            "Occupancy rate of stretchers": "0%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    01": "57",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    5": "01"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Grande-Vall\u00e9e",
+            "address": "71 rue Saint-Fran\u00e7ois-Xavier Ouest, Grande-Vall\u00e9e, G0E 1K0 Gasp\u00e9sie-\u00celes-de-la-Madeleine",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    01": "30",
+            "Number of people waiting to see a doctor in the emergency room": "1",
+            "Total number of people in the emergency room": "2",
+            "Occupancy rate of stretchers": "0%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    00": "48",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    00": "00"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de la Basse-C\u00f4te-Nord",
+            "address": "1070 boulevard Docteur-Camille-Marcoux, Blanc-Sablon, G0G 1W0 C\u00f4te-Nord",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    01": "30",
+            "Number of people waiting to see a doctor in the emergency room": "1",
+            "Total number of people in the emergency room": "2",
+            "Occupancy rate of stretchers": "0%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    01": "28",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    2": "00"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de la Minganie",
+            "address": "1035 promenade des Anciens, Havre-Saint-Pierre, G0G 1P0 C\u00f4te-Nord",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    03": "00",
+            "Number of people waiting to see a doctor in the emergency room": "3",
+            "Total number of people in the emergency room": "6",
+            "Occupancy rate of stretchers": "150%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    00": "43",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    7": "49"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de la MRC de Coaticook",
+            "address": "138 rue Jeanne-Mance, Coaticook, J1A 1W3 Estrie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "37",
+            "Number of people waiting to see a doctor in the emergency room": "17",
+            "Total number of people in the emergency room": "23",
+            "Occupancy rate of stretchers": "17%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "00",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    3": "52"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de La Sarre",
+            "address": "679 2e Rue Est, La Sarre, J9Z 2X7 Abitibi-T\u00e9miscamingue",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "16",
+            "Number of people waiting to see a doctor in the emergency room": "6",
+            "Total number of people in the emergency room": "11",
+            "Occupancy rate of stretchers": "20%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "12",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    12": "10"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Mansfield-et-Pontefact",
+            "address": "160 Chemin de la Chute, Mansfield-et-Pontefract, J0X 1R0 Outaouais",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    03": "01",
+            "Number of people waiting to see a doctor in the emergency room": "3",
+            "Total number of people in the emergency room": "7",
+            "Occupancy rate of stretchers": "0%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "42",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    00": "00"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Memphr\u00e9magog",
+            "address": "50 rue Saint-Patrice Est, Magog, J1X 3X3 Estrie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    07": "02",
+            "Number of people waiting to see a doctor in the emergency room": "13",
+            "Total number of people in the emergency room": "22",
+            "Occupancy rate of stretchers": "114%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "57",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    7": "21"
+        },
+        {
+            "name": "Ensemble du Qu\u00e9bec",
+            "address": null,
+            "Average wait on 811 (from the previous day)   \n    \n    \n    \n    01": "19",
+            "Number of people waiting to see a doctor in the emergency room": "1,267",
+            "Total number of people in the emergency room": "3,897",
+            "Occupancy rate of stretchers": "103%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "15",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "20"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Port-Cartier",
+            "address": "3 rue De Shelter Bay, Port-Cartier, G5B 2W9 C\u00f4te-Nord",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "24",
+            "Number of people waiting to see a doctor in the emergency room": "11",
+            "Total number of people in the emergency room": "17",
+            "Occupancy rate of stretchers": "20%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    01": "14",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    16": "22"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Rivi\u00e8re-Rouge",
+            "address": "1525 rue de L'Annonciation Nord, Rivi\u00e8re-Rouge, J0T 1T0 Laurentides",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "41",
+            "Number of people waiting to see a doctor in the emergency room": "7",
+            "Total number of people in the emergency room": "11",
+            "Occupancy rate of stretchers": "60%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    5": "21",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    8": "25"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Saint-Marc-des-Carri\u00e8res",
+            "address": "1045 boulevard Bona-Dussault, Saint-Marc-des-Carri\u00e8res, G0A 4B0 Capitale-Nationale",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "11",
+            "Number of people waiting to see a doctor in the emergency room": "8",
+            "Total number of people in the emergency room": "12",
+            "Occupancy rate of stretchers": "67%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "24",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    5": "42"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Saint-Raymond",
+            "address": "700 rue Saint-Cyrille, Saint-Raymond, G3L 1W1 Capitale-Nationale",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "06",
+            "Number of people waiting to see a doctor in the emergency room": "8",
+            "Total number of people in the emergency room": "13",
+            "Occupancy rate of stretchers": "14%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "30",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    9": "23"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Sainte-Agathe",
+            "address": "234 rue Saint-Vincent, Sainte-Agathe-des-Monts, J8C 2B8 Laurentides",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "13",
+            "Number of people waiting to see a doctor in the emergency room": "12",
+            "Total number of people in the emergency room": "34",
+            "Occupancy rate of stretchers": "117%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "52",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "32"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Sainte-Anne-de-Beaupr\u00e9",
+            "address": "11000 rue des Montagnards, Beaupr\u00e9, G0A 1E0 Capitale-Nationale",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    03": "28",
+            "Number of people waiting to see a doctor in the emergency room": "4",
+            "Total number of people in the emergency room": "8",
+            "Occupancy rate of stretchers": "75%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "40",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    17": "55"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Trois-Pistoles",
+            "address": "550 rue Notre-Dame Est, Trois-Pistoles, G0L 4K0 Bas-Saint-Laurent",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    01": "34",
+            "Number of people waiting to see a doctor in the emergency room": "2",
+            "Total number of people in the emergency room": "5",
+            "Occupancy rate of stretchers": "0%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    01": "28",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    2": "28"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de T\u00e9miscaming-Kipawa",
+            "address": "180 rue Anvik, T\u00e9miscaming, J0Z 3R0 Abitibi-T\u00e9miscamingue",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    01": "10",
+            "Number of people waiting to see a doctor in the emergency room": "1",
+            "Total number of people in the emergency room": "2",
+            "Occupancy rate of stretchers": "0%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    01": "21",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    17": "39"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux de Ville-Marie",
+            "address": "22 rue Notre-Dame Nord, Ville-Marie, J9V 1W8 Abitibi-T\u00e9miscamingue",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    01": "07",
+            "Number of people waiting to see a doctor in the emergency room": "1",
+            "Total number of people in the emergency room": "2",
+            "Occupancy rate of stretchers": "0%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "51",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    10": "14"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux des Escoumins",
+            "address": "4 rue de l'H\u00f4pital, Les Escoumins, G0T 1K0 C\u00f4te-Nord",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    02": "07",
+            "Number of people waiting to see a doctor in the emergency room": "4",
+            "Total number of people in the emergency room": "7",
+            "Occupancy rate of stretchers": "33%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "12",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    6": "45"
+        },
+        {
+            "name": "Ensemble du Qu\u00e9bec",
+            "address": null,
+            "Average wait on 811 (from the previous day)   \n    \n    \n    \n    01": "19",
+            "Number of people waiting to see a doctor in the emergency room": "1,267",
+            "Total number of people in the emergency room": "3,897",
+            "Occupancy rate of stretchers": "103%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "15",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "20"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux des Sources",
+            "address": "475 3e Avenue, Val-des-Sources, J1T 1X6 Estrie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    07": "08",
+            "Number of people waiting to see a doctor in the emergency room": "10",
+            "Total number of people in the emergency room": "12",
+            "Occupancy rate of stretchers": "14%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    5": "04",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    7": "24"
+        },
+        {
+            "name": "Centre multiservices de sant\u00e9 et de services sociaux du Haut-Saint-Maurice",
+            "address": "885 boulevard Ducharme, La Tuque, G9X 3C1 Mauricie et Centre-du-Qu\u00e9bec",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    03": "33",
+            "Number of people waiting to see a doctor in the emergency room": "4",
+            "Total number of people in the emergency room": "10",
+            "Occupancy rate of stretchers": "57%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    5": "05",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    6": "37"
+        },
+        {
+            "name": "CHSLD et H\u00f4pital Paul-Gilbert",
+            "address": "9330 boulevard du Centre-Hospitalier, L\u00e9vis, G6X 1L6 Chaudi\u00e8re-Appalaches",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "05",
+            "Number of people waiting to see a doctor in the emergency room": "20",
+            "Total number of people in the emergency room": "37",
+            "Occupancy rate of stretchers": "not applicable",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    01": "46",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    00": "00"
+        },
+        {
+            "name": "CHU Sainte-Justine",
+            "address": "3175 chemin de la C\u00f4te-Sainte-Catherine, Montr\u00e9al, H3T 1C5 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    03": "05",
+            "Number of people waiting to see a doctor in the emergency room": "11",
+            "Total number of people in the emergency room": "50",
+            "Occupancy rate of stretchers": "69%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "20",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    6": "17"
+        },
+        {
+            "name": "CHUS - H\u00f4pital Fleurimont",
+            "address": "3001 12e Avenue Nord, Sherbrooke, J1H 5N4 Estrie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "51",
+            "Number of people waiting to see a doctor in the emergency room": "9",
+            "Total number of people in the emergency room": "35",
+            "Occupancy rate of stretchers": "79%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    6": "42",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    9": "36"
+        },
+        {
+            "name": "CHUS - H\u00f4tel-Dieu de Sherbrooke",
+            "address": "580 rue Bowen Sud, Sherbrooke, J1G 2E8 Estrie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "31",
+            "Number of people waiting to see a doctor in the emergency room": "12",
+            "Total number of people in the emergency room": "57",
+            "Occupancy rate of stretchers": "93%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    5": "03",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    10": "08"
+        },
+        {
+            "name": "CLSC de Poh\u00e9n\u00e9gamook",
+            "address": "1922 rue Saint-Vallier, Poh\u00e9n\u00e9gamook, G0L 1J0 Bas-Saint-Laurent",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    00": "59",
+            "Number of people waiting to see a doctor in the emergency room": "0",
+            "Total number of people in the emergency room": "1",
+            "Occupancy rate of stretchers": "0%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    00": "52",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    25": "07"
+        },
+        {
+            "name": "CLSC et centre d'h\u00e9bergement de la Petite-Nation",
+            "address": "14 rue Saint-Andr\u00e9, Saint-Andr\u00e9-Avellin, J0V 1W0 Outaouais",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "44",
+            "Number of people waiting to see a doctor in the emergency room": "12",
+            "Total number of people in the emergency room": "18",
+            "Occupancy rate of stretchers": "100%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    00": "00",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    00": "00"
+        },
+        {
+            "name": "CLSC et centre de services ambulatoires de Murdochville",
+            "address": "600 avenue William-May, Murdochville, G0E 1W0 Gasp\u00e9sie-\u00celes-de-la-Madeleine",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    02": "16",
+            "Number of people waiting to see a doctor in the emergency room": "1",
+            "Total number of people in the emergency room": "1",
+            "Occupancy rate of stretchers": "0%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    01": "26",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    00": "00"
+        },
+        {
+            "name": "CLSC et centre de services ambulatoires de Pasp\u00e9biac",
+            "address": "273 boulevard G\u00e9rard-D.-Levesque, Pasp\u00e9biac, G0C 2K0 Gasp\u00e9sie-\u00celes-de-la-Madeleine",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    03": "01",
+            "Number of people waiting to see a doctor in the emergency room": "4",
+            "Total number of people in the emergency room": "13",
+            "Occupancy rate of stretchers": "0%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    01": "30",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    00": "34"
+        },
+        {
+            "name": "Ensemble du Qu\u00e9bec",
+            "address": null,
+            "Average wait on 811 (from the previous day)   \n    \n    \n    \n    01": "19",
+            "Number of people waiting to see a doctor in the emergency room": "1,267",
+            "Total number of people in the emergency room": "3,897",
+            "Occupancy rate of stretchers": "103%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "15",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "20"
+        },
+        {
+            "name": "CLSC et h\u00f4pital Le Royer",
+            "address": "635 boulevard Jolliet, Baie-Comeau, G5C 1P1 C\u00f4te-Nord",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "23",
+            "Number of people waiting to see a doctor in the emergency room": "12",
+            "Total number of people in the emergency room": "27",
+            "Occupancy rate of stretchers": "110%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    5": "05",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    15": "29"
+        },
+        {
+            "name": "H\u00f4pital Anna-Laberge",
+            "address": "200 boulevard Brisebois, Ch\u00e2teauguay, J6K 4W8 Mont\u00e9r\u00e9gie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "29",
+            "Number of people waiting to see a doctor in the emergency room": "currently not available",
+            "Total number of people in the emergency room": "currently not available",
+            "Occupancy rate of stretchers": "not applicable",
+            "Average time in the waiting room (from the previous day)": "currently not available",
+            "Average waiting time on a stretcher (from the previous day)": "currently not available"
+        },
+        {
+            "name": "H\u00f4pital Barrie Memorial / Barrie Memorial Hospital",
+            "address": "28 rue Gale, Ormstown, J0S 1K0 Mont\u00e9r\u00e9gie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "58",
+            "Number of people waiting to see a doctor in the emergency room": "12",
+            "Total number of people in the emergency room": "24",
+            "Occupancy rate of stretchers": "160%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "34",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    21": "48"
+        },
+        {
+            "name": "H\u00f4pital Brome-Missisquoi-Perkins",
+            "address": "950 rue Principale, Cowansville, J2K 1K3 Estrie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "16",
+            "Number of people waiting to see a doctor in the emergency room": "currently not available",
+            "Total number of people in the emergency room": "currently not available",
+            "Occupancy rate of stretchers": "not applicable",
+            "Average time in the waiting room (from the previous day)": "currently not available",
+            "Average waiting time on a stretcher (from the previous day)": "currently not available"
+        },
+        {
+            "name": "H\u00f4pital Charles-Le Moyne",
+            "address": "3120 boulevard Taschereau, Longueuil, J4V 2H1 Mont\u00e9r\u00e9gie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    07": "07",
+            "Number of people waiting to see a doctor in the emergency room": "22",
+            "Total number of people in the emergency room": "81",
+            "Occupancy rate of stretchers": "98%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    6": "00",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    16": "42"
+        },
+        {
+            "name": "H\u00f4pital d'Alma",
+            "address": "300 boulevard Champlain Sud, Alma, G8B 5W3 Saguenay-Lac-Saint-Jean",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    07": "22",
+            "Number of people waiting to see a doctor in the emergency room": "12",
+            "Total number of people in the emergency room": "25",
+            "Occupancy rate of stretchers": "29%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    5": "20",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    7": "16"
+        },
+        {
+            "name": "H\u00f4pital d'Amos",
+            "address": "622 4e Rue Ouest, Amos, J9T 2S2 Abitibi-T\u00e9miscamingue",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    03": "21",
+            "Number of people waiting to see a doctor in the emergency room": "6",
+            "Total number of people in the emergency room": "14",
+            "Occupancy rate of stretchers": "100%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "34",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    5": "51"
+        },
+        {
+            "name": "H\u00f4pital d'Amqui",
+            "address": "135 avenue Ga\u00ebtan-Archambault, Amqui, G5J 2K5 Bas-Saint-Laurent",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "38",
+            "Number of people waiting to see a doctor in the emergency room": "7",
+            "Total number of people in the emergency room": "15",
+            "Occupancy rate of stretchers": "33%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "11",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    5": "19"
+        },
+        {
+            "name": "H\u00f4pital de Chandler",
+            "address": "451 rue Monseigneur-Ross Est, Chandler, G0C 1K0 Gasp\u00e9sie-\u00celes-de-la-Madeleine",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    07": "07",
+            "Number of people waiting to see a doctor in the emergency room": "12",
+            "Total number of people in the emergency room": "18",
+            "Occupancy rate of stretchers": "25%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "13",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    15": "48"
+        },
+        {
+            "name": "H\u00f4pital de Chicoutimi",
+            "address": "305 rue Saint-Vallier, Saguenay, G7H 5H6 Saguenay-Lac-Saint-Jean",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "23",
+            "Number of people waiting to see a doctor in the emergency room": "22",
+            "Total number of people in the emergency room": "63",
+            "Occupancy rate of stretchers": "85%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "52",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    11": "19"
+        },
+        {
+            "name": "Ensemble du Qu\u00e9bec",
+            "address": null,
+            "Average wait on 811 (from the previous day)   \n    \n    \n    \n    01": "19",
+            "Number of people waiting to see a doctor in the emergency room": "1,267",
+            "Total number of people in the emergency room": "3,897",
+            "Occupancy rate of stretchers": "103%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "15",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "20"
+        },
+        {
+            "name": "H\u00f4pital de Dolbeau-Mistassini",
+            "address": "2000 boulevard Sacr\u00e9-Coeur, Dolbeau-Mistassini, G8L 2R5 Saguenay-Lac-Saint-Jean",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "45",
+            "Number of people waiting to see a doctor in the emergency room": "9",
+            "Total number of people in the emergency room": "20",
+            "Occupancy rate of stretchers": "60%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "35",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    6": "55"
+        },
+        {
+            "name": "H\u00f4pital de Gasp\u00e9",
+            "address": "215 boulevard de York Ouest, Gasp\u00e9, G4X 2W2 Gasp\u00e9sie-\u00celes-de-la-Madeleine",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    02": "31",
+            "Number of people waiting to see a doctor in the emergency room": "3",
+            "Total number of people in the emergency room": "8",
+            "Occupancy rate of stretchers": "33%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "27",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    11": "15"
+        },
+        {
+            "name": "H\u00f4pital de Gatineau",
+            "address": "909 boulevard La V\u00e9rendrye Ouest, Gatineau, J8P 7H2 Outaouais",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    08": "16",
+            "Number of people waiting to see a doctor in the emergency room": "19",
+            "Total number of people in the emergency room": "64",
+            "Occupancy rate of stretchers": "129%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    5": "21",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    17": "44"
+        },
+        {
+            "name": "H\u00f4pital de Granby",
+            "address": "205 boulevard Leclerc Ouest, Granby, J2G 1T7 Estrie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    10": "35",
+            "Number of people waiting to see a doctor in the emergency room": "31",
+            "Total number of people in the emergency room": "63",
+            "Occupancy rate of stretchers": "120%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    9": "58",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    12": "27"
+        },
+        {
+            "name": "H\u00f4pital de Hull",
+            "address": "116 boulevard Lionel-\u00c9mond, Gatineau, J8Y 1W7 Outaouais",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "14",
+            "Number of people waiting to see a doctor in the emergency room": "8",
+            "Total number of people in the emergency room": "61",
+            "Occupancy rate of stretchers": "144%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    7": "18",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    18": "24"
+        },
+        {
+            "name": "H\u00f4pital de l'Archipel",
+            "address": "430 chemin Principal, Les \u00celes-de-la-Madeleine, G4T 1R9 Gasp\u00e9sie-\u00celes-de-la-Madeleine",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "49",
+            "Number of people waiting to see a doctor in the emergency room": "9",
+            "Total number of people in the emergency room": "18",
+            "Occupancy rate of stretchers": "83%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    01": "48",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    11": "31"
+        },
+        {
+            "name": "H\u00f4pital de l'Enfant-J\u00e9sus",
+            "address": "1401 18e Rue, Qu\u00e9bec, G1J 1Z4 Capitale-Nationale",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "33",
+            "Number of people waiting to see a doctor in the emergency room": "15",
+            "Total number of people in the emergency room": "82",
+            "Occupancy rate of stretchers": "119%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "49",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    13": "28"
+        },
+        {
+            "name": "H\u00f4pital de La Baie",
+            "address": "1000 rue du Docteur-Desgagn\u00e9, Saguenay, G7B 2Y6 Saguenay-Lac-Saint-Jean",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "45",
+            "Number of people waiting to see a doctor in the emergency room": "9",
+            "Total number of people in the emergency room": "11",
+            "Occupancy rate of stretchers": "14%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "07",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    9": "13"
+        },
+        {
+            "name": "H\u00f4pital de la Cit\u00e9-de-la-Sant\u00e9",
+            "address": "1755 boulevard Ren\u00e9-Laennec, Laval, H7M 3L9 Laval",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    07": "34",
+            "Number of people waiting to see a doctor in the emergency room": "23",
+            "Total number of people in the emergency room": "99",
+            "Occupancy rate of stretchers": "114%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    5": "42",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "27"
+        },
+        {
+            "name": "H\u00f4pital de Lachine",
+            "address": "650 16e Avenue, Montr\u00e9al, H8S 3N5 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    01": "47",
+            "Number of people waiting to see a doctor in the emergency room": "1",
+            "Total number of people in the emergency room": "12",
+            "Occupancy rate of stretchers": "71%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    5": "03",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    27": "51"
+        },
+        {
+            "name": "Ensemble du Qu\u00e9bec",
+            "address": null,
+            "Average wait on 811 (from the previous day)   \n    \n    \n    \n    01": "19",
+            "Number of people waiting to see a doctor in the emergency room": "1,267",
+            "Total number of people in the emergency room": "3,897",
+            "Occupancy rate of stretchers": "103%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "15",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "20"
+        },
+        {
+            "name": "H\u00f4pital de Lanaudi\u00e8re et Centre d'h\u00e9bergement Parphilia-Ferland",
+            "address": "1000 boulevard Sainte-Anne, Saint-Charles-Borrom\u00e9e, J6E 6J2 Lanaudi\u00e8re",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "25",
+            "Number of people waiting to see a doctor in the emergency room": "17",
+            "Total number of people in the emergency room": "80",
+            "Occupancy rate of stretchers": "145%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "53",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    15": "57"
+        },
+        {
+            "name": "H\u00f4pital de LaSalle",
+            "address": "8585 terrasse Champlain, Montr\u00e9al, H8P 1C1 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    01": "42",
+            "Number of people waiting to see a doctor in the emergency room": "3",
+            "Total number of people in the emergency room": "28",
+            "Occupancy rate of stretchers": "100%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "46",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    26": "03"
+        },
+        {
+            "name": "H\u00f4pital de Maniwaki",
+            "address": "309 boulevard Desjardins, Maniwaki, J9E 2E7 Outaouais",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    03": "03",
+            "Number of people waiting to see a doctor in the emergency room": "3",
+            "Total number of people in the emergency room": "10",
+            "Occupancy rate of stretchers": "67%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "36",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    22": "55"
+        },
+        {
+            "name": "H\u00f4pital de Matane",
+            "address": "333 rue Thibault, Matane, G4W 2W5 Bas-Saint-Laurent",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "58",
+            "Number of people waiting to see a doctor in the emergency room": "8",
+            "Total number of people in the emergency room": "12",
+            "Occupancy rate of stretchers": "43%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "30",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    5": "40"
+        },
+        {
+            "name": "H\u00f4pital de Mont-Laurier",
+            "address": "2561 chemin de la Li\u00e8vre Sud, Mont-Laurier, J9L 3G3 Laurentides",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "16",
+            "Number of people waiting to see a doctor in the emergency room": "3",
+            "Total number of people in the emergency room": "11",
+            "Occupancy rate of stretchers": "100%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "58",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    12": "37"
+        },
+        {
+            "name": "H\u00f4pital de Montmagny",
+            "address": "350 boulevard Tach\u00e9 Ouest, Montmagny, G5V 3R8 Chaudi\u00e8re-Appalaches",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    03": "04",
+            "Number of people waiting to see a doctor in the emergency room": "7",
+            "Total number of people in the emergency room": "21",
+            "Occupancy rate of stretchers": "80%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "42",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    9": "39"
+        },
+        {
+            "name": "H\u00f4pital Notre-Dame-du-Lac",
+            "address": "58 rue de l'\u00c9glise, T\u00e9miscouata-sur-le-Lac, G0L 1X0 Bas-Saint-Laurent",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "05",
+            "Number of people waiting to see a doctor in the emergency room": "7",
+            "Total number of people in the emergency room": "11",
+            "Occupancy rate of stretchers": "40%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "05",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    6": "01"
+        },
+        {
+            "name": "H\u00f4pital de Rouyn-Noranda",
+            "address": "4 9e Rue, Rouyn-Noranda, J9X 2B2 Abitibi-T\u00e9miscamingue",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "54",
+            "Number of people waiting to see a doctor in the emergency room": "11",
+            "Total number of people in the emergency room": "19",
+            "Occupancy rate of stretchers": "50%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    6": "58",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    8": "57"
+        },
+        {
+            "name": "H\u00f4pital de Saint-Eustache",
+            "address": "520 boulevard Arthur-Sauv\u00e9, Saint-Eustache, J7R 5B1 Laurentides",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "02",
+            "Number of people waiting to see a doctor in the emergency room": "12",
+            "Total number of people in the emergency room": "63",
+            "Occupancy rate of stretchers": "106%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "29",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    12": "10"
+        },
+        {
+            "name": "H\u00f4pital de Saint-Georges",
+            "address": "1515 17e rue, Saint-Georges, G5Y 4T8 Chaudi\u00e8re-Appalaches",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "33",
+            "Number of people waiting to see a doctor in the emergency room": "22",
+            "Total number of people in the emergency room": "52",
+            "Occupancy rate of stretchers": "100%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "25",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    9": "22"
+        },
+        {
+            "name": "Ensemble du Qu\u00e9bec",
+            "address": null,
+            "Average wait on 811 (from the previous day)   \n    \n    \n    \n    01": "19",
+            "Number of people waiting to see a doctor in the emergency room": "1,267",
+            "Total number of people in the emergency room": "3,897",
+            "Occupancy rate of stretchers": "103%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "15",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "20"
+        },
+        {
+            "name": "H\u00f4pital de Saint-J\u00e9r\u00f4me",
+            "address": "290 rue Montigny, Saint-J\u00e9r\u00f4me, J7Z 5T3 Laurentides",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    09": "22",
+            "Number of people waiting to see a doctor in the emergency room": "25",
+            "Total number of people in the emergency room": "106",
+            "Occupancy rate of stretchers": "155%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "54",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    22": "10"
+        },
+        {
+            "name": "H\u00f4pital de Thetford",
+            "address": "1717 rue Notre-Dame Est, Thetford Mines, G6G 2V4 Chaudi\u00e8re-Appalaches",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "05",
+            "Number of people waiting to see a doctor in the emergency room": "23",
+            "Total number of people in the emergency room": "41",
+            "Occupancy rate of stretchers": "140%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "14",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    12": "01"
+        },
+        {
+            "name": "H\u00f4pital et centre de r\u00e9adaptation en d\u00e9pendance de Val-d'Or",
+            "address": "725 6e Rue, Val-d'Or, J9P 3Y1 Abitibi-T\u00e9miscamingue",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    11": "35",
+            "Number of people waiting to see a doctor in the emergency room": "26",
+            "Total number of people in the emergency room": "35",
+            "Occupancy rate of stretchers": "55%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    7": "46",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    10": "00"
+        },
+        {
+            "name": "H\u00f4pital de Verdun",
+            "address": "4000 boulevard LaSalle, Montr\u00e9al, H4G 2A3 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    03": "29",
+            "Number of people waiting to see a doctor in the emergency room": "10",
+            "Total number of people in the emergency room": "46",
+            "Occupancy rate of stretchers": "127%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "55",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    25": "24"
+        },
+        {
+            "name": "H\u00f4pital Douglas",
+            "address": "6875 boulevard Lasalle, Montr\u00e9al, H4H 1R3 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    03": "28",
+            "Number of people waiting to see a doctor in the emergency room": "1",
+            "Total number of people in the emergency room": "16",
+            "Occupancy rate of stretchers": "175%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    01": "27",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    33": "03"
+        },
+        {
+            "name": "H\u00f4pital du Centre-de-la-Mauricie",
+            "address": "50 119e Rue, Shawinigan, G9P 5K1 Mauricie et Centre-du-Qu\u00e9bec",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "10",
+            "Number of people waiting to see a doctor in the emergency room": "14",
+            "Total number of people in the emergency room": "35",
+            "Occupancy rate of stretchers": "74%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    7": "33",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    9": "42"
+        },
+        {
+            "name": "H\u00f4pital du Haut-Richelieu",
+            "address": "920 boulevard du S\u00e9minaire Nord, Saint-Jean-sur-Richelieu, J3A 1B7 Mont\u00e9r\u00e9gie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "57",
+            "Number of people waiting to see a doctor in the emergency room": "26",
+            "Total number of people in the emergency room": "72",
+            "Occupancy rate of stretchers": "116%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "20",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    18": "18"
+        },
+        {
+            "name": "H\u00f4pital du Sacr\u00e9-C\u0153ur de Montr\u00e9al",
+            "address": "5400 boulevard Gouin Ouest, Montr\u00e9al, H4J 1C5 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "52",
+            "Number of people waiting to see a doctor in the emergency room": "11",
+            "Total number of people in the emergency room": "72",
+            "Occupancy rate of stretchers": "91%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "36",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    20": "58"
+        },
+        {
+            "name": "H\u00f4pital du Saint-Sacrement",
+            "address": "1050 chemin Sainte-Foy, Qu\u00e9bec, G1S 4L8 Capitale-Nationale",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    02": "45",
+            "Number of people waiting to see a doctor in the emergency room": "3",
+            "Total number of people in the emergency room": "25",
+            "Occupancy rate of stretchers": "86%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "47",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    11": "01"
+        },
+        {
+            "name": "H\u00f4pital du Suro\u00eet",
+            "address": "150 rue Saint-Thomas, Salaberry-de-Valleyfield, J6T 6C1 Mont\u00e9r\u00e9gie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "14",
+            "Number of people waiting to see a doctor in the emergency room": "10",
+            "Total number of people in the emergency room": "69",
+            "Occupancy rate of stretchers": "172%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "43",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    17": "12"
+        },
+        {
+            "name": "Ensemble du Qu\u00e9bec",
+            "address": null,
+            "Average wait on 811 (from the previous day)   \n    \n    \n    \n    01": "19",
+            "Number of people waiting to see a doctor in the emergency room": "1,267",
+            "Total number of people in the emergency room": "3,897",
+            "Occupancy rate of stretchers": "103%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "15",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "20"
+        },
+        {
+            "name": "H\u00f4pital en sant\u00e9 mentale Albert-Pr\u00e9vost",
+            "address": "6555 boulevard Gouin Ouest, Montr\u00e9al, H4K 1B3 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    01": "00",
+            "Number of people waiting to see a doctor in the emergency room": "0",
+            "Total number of people in the emergency room": "11",
+            "Occupancy rate of stretchers": "111%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "49",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    71": "03"
+        },
+        {
+            "name": "H\u00f4pital et centre d'h\u00e9bergement de Roberval",
+            "address": "450 rue Brassard, Roberval, G8H 1B9 Saguenay-Lac-Saint-Jean",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    01": "09",
+            "Number of people waiting to see a doctor in the emergency room": "1",
+            "Total number of people in the emergency room": "13",
+            "Occupancy rate of stretchers": "69%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "57",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    5": "35"
+        },
+        {
+            "name": "H\u00f4pital et centre de r\u00e9adaptation de Jonqui\u00e8re",
+            "address": "2230 rue de l'H\u00f4pital, Saguenay, G7X 7X2 Saguenay-Lac-Saint-Jean",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    08": "23",
+            "Number of people waiting to see a doctor in the emergency room": "21",
+            "Total number of people in the emergency room": "35",
+            "Occupancy rate of stretchers": "88%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "07",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    10": "14"
+        },
+        {
+            "name": "H\u00f4pital et CHSLD de Papineau",
+            "address": "155 rue Maclaren Est, Gatineau, J8L 0C2 Outaouais",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    03": "57",
+            "Number of people waiting to see a doctor in the emergency room": "6",
+            "Total number of people in the emergency room": "16",
+            "Occupancy rate of stretchers": "75%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "16",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    13": "09"
+        },
+        {
+            "name": "H\u00f4pital et CHSLD du Pontiac",
+            "address": "200 rue Argue, Shawville, J0X 2Y0 Outaouais",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    02": "18",
+            "Number of people waiting to see a doctor in the emergency room": "2",
+            "Total number of people in the emergency room": "6",
+            "Occupancy rate of stretchers": "75%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "21",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    6": "33"
+        },
+        {
+            "name": "H\u00f4pital et CHSLD M\u00e9morial de Wakefield / Wakefield Memorial Hospital",
+            "address": "101 chemin Burnside, La P\u00eache, J0X 3G0 Outaouais",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    07": "27",
+            "Number of people waiting to see a doctor in the emergency room": "10",
+            "Total number of people in the emergency room": "16",
+            "Occupancy rate of stretchers": "125%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "26",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    13": "55"
+        },
+        {
+            "name": "H\u00f4pital et CLSC de la Malbaie",
+            "address": "303 rue Saint-\u00c9tienne, La Malbaie, G5A 1T1 Capitale-Nationale",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    01": "42",
+            "Number of people waiting to see a doctor in the emergency room": "3",
+            "Total number of people in the emergency room": "9",
+            "Occupancy rate of stretchers": "22%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "54",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    19": "12"
+        },
+        {
+            "name": "H\u00f4pital et CLSC de Sainte-Anne-des-Monts",
+            "address": "50 rue du Belv\u00e9d\u00e8re, Sainte-Anne-des-Monts, G4V 1X4 Gasp\u00e9sie-\u00celes-de-la-Madeleine",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    02": "07",
+            "Number of people waiting to see a doctor in the emergency room": "3",
+            "Total number of people in the emergency room": "10",
+            "Occupancy rate of stretchers": "67%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    01": "27",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    8": "47"
+        },
+        {
+            "name": "H\u00f4pital et CLSC de Sept-\u00celes",
+            "address": "45 rue du P\u00e8re-Divet, Sept-\u00celes, G4R 3N7 C\u00f4te-Nord",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    07": "46",
+            "Number of people waiting to see a doctor in the emergency room": "12",
+            "Total number of people in the emergency room": "22",
+            "Occupancy rate of stretchers": "110%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    5": "40",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    22": "48"
+        },
+        {
+            "name": "H\u00f4pital et groupe de m\u00e9decine de famille universitaire de Maria",
+            "address": "419 boulevard Perron, Maria, G0C 1Y0 Gasp\u00e9sie-\u00celes-de-la-Madeleine",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "06",
+            "Number of people waiting to see a doctor in the emergency room": "10",
+            "Total number of people in the emergency room": "15",
+            "Occupancy rate of stretchers": "20%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    5": "35",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    7": "05"
+        },
+        {
+            "name": "Ensemble du Qu\u00e9bec",
+            "address": null,
+            "Average wait on 811 (from the previous day)   \n    \n    \n    \n    01": "19",
+            "Number of people waiting to see a doctor in the emergency room": "1,267",
+            "Total number of people in the emergency room": "3,897",
+            "Occupancy rate of stretchers": "103%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "15",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "20"
+        },
+        {
+            "name": "H\u00f4pital Fleury",
+            "address": "2180 rue Fleury Est, Montr\u00e9al, H2B 1K3 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "16",
+            "Number of people waiting to see a doctor in the emergency room": "11",
+            "Total number of people in the emergency room": "32",
+            "Occupancy rate of stretchers": "100%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    5": "13",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    16": "08"
+        },
+        {
+            "name": "H\u00f4pital g\u00e9n\u00e9ral de Montr\u00e9al",
+            "address": "1650 avenue Cedar, Montr\u00e9al, H3G 1A4 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "32",
+            "Number of people waiting to see a doctor in the emergency room": "13",
+            "Total number of people in the emergency room": "74",
+            "Occupancy rate of stretchers": "171%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "54",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    19": "02"
+        },
+        {
+            "name": "H\u00f4pital g\u00e9n\u00e9ral du Lakeshore",
+            "address": "160 avenue Stillview, Pointe-Claire, H9R 2Y2 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    03": "35",
+            "Number of people waiting to see a doctor in the emergency room": "7",
+            "Total number of people in the emergency room": "56",
+            "Occupancy rate of stretchers": "123%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "21",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    25": "36"
+        },
+        {
+            "name": "H\u00f4pital g\u00e9n\u00e9ral juif",
+            "address": "3755 chemin de la C\u00f4te-Sainte-Catherine, Montr\u00e9al, H3T 1E2 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "51",
+            "Number of people waiting to see a doctor in the emergency room": "39",
+            "Total number of people in the emergency room": "131",
+            "Occupancy rate of stretchers": "183%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "24",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "18"
+        },
+        {
+            "name": "H\u00f4pital Honor\u00e9-Mercier",
+            "address": "2750 boulevard Laframboise, Saint-Hyacinthe, J2S 4Y8 Mont\u00e9r\u00e9gie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    10": "06",
+            "Number of people waiting to see a doctor in the emergency room": "28",
+            "Total number of people in the emergency room": "54",
+            "Occupancy rate of stretchers": "96%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "21",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    8": "32"
+        },
+        {
+            "name": "H\u00f4pital Jean-Talon",
+            "address": "1385 rue Jean-Talon Est, Montr\u00e9al, H2E 1S6 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "48",
+            "Number of people waiting to see a doctor in the emergency room": "12",
+            "Total number of people in the emergency room": "41",
+            "Occupancy rate of stretchers": "105%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "36",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    15": "28"
+        },
+        {
+            "name": "H\u00f4pital Maisonneuve-Rosemont",
+            "address": "5415 boulevard de l'Assomption, Montr\u00e9al, H1T 2M4 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "12",
+            "Number of people waiting to see a doctor in the emergency room": "18",
+            "Total number of people in the emergency room": "90",
+            "Occupancy rate of stretchers": "113%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "51",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    19": "50"
+        },
+        {
+            "name": "H\u00f4pital Notre-Dame",
+            "address": "1560 rue Sherbrooke Est, Montr\u00e9al, H2L 4M1 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "24",
+            "Number of people waiting to see a doctor in the emergency room": "13",
+            "Total number of people in the emergency room": "63",
+            "Occupancy rate of stretchers": "123%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    5": "27",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    19": "19"
+        },
+        {
+            "name": "H\u00f4pital Notre-Dame-de-Fatima",
+            "address": "1201 6e Avenue, La Pocati\u00e8re, G0R 1Z0 Bas-Saint-Laurent",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    02": "50",
+            "Number of people waiting to see a doctor in the emergency room": "3",
+            "Total number of people in the emergency room": "10",
+            "Occupancy rate of stretchers": "43%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "36",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    7": "42"
+        },
+        {
+            "name": "H\u00f4pital Pierre-Boucher",
+            "address": "1333 boulevard Jacques-Cartier Est, Longueuil, J4M 2A5 Mont\u00e9r\u00e9gie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    08": "23",
+            "Number of people waiting to see a doctor in the emergency room": "24",
+            "Total number of people in the emergency room": "78",
+            "Occupancy rate of stretchers": "113%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    6": "55",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    16": "27"
+        },
+        {
+            "name": "Ensemble du Qu\u00e9bec",
+            "address": null,
+            "Average wait on 811 (from the previous day)   \n    \n    \n    \n    01": "19",
+            "Number of people waiting to see a doctor in the emergency room": "1,267",
+            "Total number of people in the emergency room": "3,897",
+            "Occupancy rate of stretchers": "103%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "15",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "20"
+        },
+        {
+            "name": "H\u00f4pital Pierre-Le Gardeur",
+            "address": "911 mont\u00e9e des Pionniers, Terrebonne, J6V 2H2 Lanaudi\u00e8re",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    11": "03",
+            "Number of people waiting to see a doctor in the emergency room": "37",
+            "Total number of people in the emergency room": "107",
+            "Occupancy rate of stretchers": "156%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "52",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    18": "42"
+        },
+        {
+            "name": "H\u00f4pital Royal Victoria",
+            "address": "687 avenue des Pins Ouest, Montr\u00e9al, H3A 1A1 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "31",
+            "Number of people waiting to see a doctor in the emergency room": "11",
+            "Total number of people in the emergency room": "88",
+            "Occupancy rate of stretchers": "167%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    8": "24",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    22": "56"
+        },
+        {
+            "name": "H\u00f4pital r\u00e9gional de Rimouski",
+            "address": "150 avenue Rouleau, Rimouski, G5L 5T1 Bas-Saint-Laurent",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    05": "15",
+            "Number of people waiting to see a doctor in the emergency room": "9",
+            "Total number of people in the emergency room": "25",
+            "Occupancy rate of stretchers": "92%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "49",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    7": "10"
+        },
+        {
+            "name": "H\u00f4pital Saint-Fran\u00e7ois D'Assise",
+            "address": "10 rue de l'Espinay, Qu\u00e9bec, G1L 3L5 Capitale-Nationale",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    07": "03",
+            "Number of people waiting to see a doctor in the emergency room": "17",
+            "Total number of people in the emergency room": "65",
+            "Occupancy rate of stretchers": "126%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    5": "01",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "01"
+        },
+        {
+            "name": "H\u00f4pital Sainte-Croix",
+            "address": "570 rue Heriot, Drummondville, J2B 1C1 Mauricie et Centre-du-Qu\u00e9bec",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    07": "29",
+            "Number of people waiting to see a doctor in the emergency room": "21",
+            "Total number of people in the emergency room": "50",
+            "Occupancy rate of stretchers": "95%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "55",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    9": "36"
+        },
+        {
+            "name": "H\u00f4pital Santa Cabrini",
+            "address": "5655 rue Saint-Zotique Est, Montr\u00e9al, H1T 1P7 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    07": "31",
+            "Number of people waiting to see a doctor in the emergency room": "14",
+            "Total number of people in the emergency room": "56",
+            "Occupancy rate of stretchers": "111%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "06",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    22": "32"
+        },
+        {
+            "name": "H\u00f4tel-Dieu d'Arthabaska",
+            "address": "5 rue des Hospitali\u00e8res, Victoriaville, G6P 6N2 Mauricie et Centre-du-Qu\u00e9bec",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    06": "20",
+            "Number of people waiting to see a doctor in the emergency room": "13",
+            "Total number of people in the emergency room": "33",
+            "Occupancy rate of stretchers": "81%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "40",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    8": "46"
+        },
+        {
+            "name": "H\u00f4tel-Dieu de L\u00e9vis",
+            "address": "143 rue Wolfe, L\u00e9vis, G6V 3Z1 Chaudi\u00e8re-Appalaches",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    01": "49",
+            "Number of people waiting to see a doctor in the emergency room": "7",
+            "Total number of people in the emergency room": "89",
+            "Occupancy rate of stretchers": "147%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    2": "56",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    25": "12"
+        },
+        {
+            "name": "H\u00f4tel-Dieu de Sorel",
+            "address": "400 avenue de l'H\u00f4tel-Dieu, Sorel-Tracy, J3P 1N5 Mont\u00e9r\u00e9gie",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    04": "11",
+            "Number of people waiting to see a doctor in the emergency room": "8",
+            "Total number of people in the emergency room": "35",
+            "Occupancy rate of stretchers": "82%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    3": "27",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    15": "26"
+        },
+        {
+            "name": "Institut de cardiologie de Montr\u00e9al",
+            "address": "5000 rue B\u00e9langer, Montr\u00e9al, H1T 1C8 Montr\u00e9al",
+            "Estimated waiting time for non-priority cases to see a doctor   \n    \n    \n    \n    02": "51",
+            "Number of people waiting to see a doctor in the emergency room": "4",
+            "Total number of people in the emergency room": "15",
+            "Occupancy rate of stretchers": "9%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "54",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    19": "32"
+        },
+        {
+            "name": "Ensemble du Qu\u00e9bec",
+            "address": null,
+            "Average wait on 811 (from the previous day)   \n    \n    \n    \n    01": "19",
+            "Number of people waiting to see a doctor in the emergency room": "1,267",
+            "Total number of people in the emergency room": "3,897",
+            "Occupancy rate of stretchers": "103%",
+            "Average time in the waiting room (from the previous day)   \n    \n    \n    \n    4": "15",
+            "Average waiting time on a stretcher (from the previous day)   \n    \n    \n    \n    14": "20"
+        }
+    ]
+}
